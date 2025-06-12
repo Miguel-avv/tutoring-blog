@@ -4,8 +4,8 @@ excerpt: "I am a student."
 coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2025-06-16T05:35:07.322Z"
 author:
-  name: Tim Neutkens
-  picture: "/assets/images/IMG_259141EDAA92-1.jpeg"
+  name: Miguel Angel Vargas Valencia
+  picture: "/assets/images/IMG_2660 2.JPG"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
