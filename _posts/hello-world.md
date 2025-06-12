@@ -5,7 +5,7 @@ coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2025-06-16T05:35:07.322Z"
 author:
   name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
+  picture: "/assets/images/IMG_259141EDAA92-1.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
