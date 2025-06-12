@@ -10,8 +10,16 @@ ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---
 
-Hola
+My mcgill parcours
+## Mcgill
 
-## Lorem Ipsum
+Semester 1:
 
-Holaaaaaaa
+
+Semester 2:
+
+
+Semester 3:
+
+
+Semester 4:
