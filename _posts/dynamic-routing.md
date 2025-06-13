@@ -4,7 +4,7 @@ excerpt: "Get to know my academic progress!"
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
-  name: JJ Kasper
+  name: Friends
   picture: "/tutoring-blog/public/assets/images/IMG_4043.jpg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"

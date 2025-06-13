@@ -7,14 +7,7 @@ export function Intro() {
         Miguel Angel
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Personal blog{" "}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-blue-600 duration-200 transition-colors"
-        >
-          Next.js
-        </a>{" "}
-        and {CMS_NAME}.
+        Personal blog
       </h4>
     </section>
   );
