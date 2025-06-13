@@ -7,7 +7,7 @@ author:
   name: JJ Kasper
   picture: "/tutoring-blog/public/assets/images/IMG_4043.jpg"
 ogImage:
-  #url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
 June 12th 2025
