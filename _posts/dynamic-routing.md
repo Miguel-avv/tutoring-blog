@@ -1,13 +1,13 @@
 ---
-title: "Dynamic Routing and Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "About me"
+excerpt: "Get to know my academic progress!"
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
   name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/tutoring-blog/public/assets/images/IMG_4043.jpg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  #url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
 June 12th 2025
