@@ -1,8 +1,8 @@
 ---
-title: "My Progression"
-excerpt: "In here you will get a peak at the progression I have achived these past few years."
+title: "Japan"
+excerpt: "Tokyo"
 coverImage: "/assets/blog/preview/cover.jpg"
-date: "2025-06-12T05:35:07.322Z"
+date: "2025-05-06T05:35:07.322Z"
 author:
   name: Activities
   picture: "/assets/blog/authors/joe.jpeg"
@@ -10,16 +10,11 @@ ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---
 
-My mcgill parcours
-## Mcgill University
+## Hakone
 
-Semester 1:
-
-
-Semester 2:
+Beautiful landscapes 
 
 
-Semester 3:
+## Tokyo
 
-
-Semester 4:
+Urban beauty
