@@ -4,7 +4,7 @@ excerpt: "The country of the flying fish"
 coverImage: "/assets/images/Screenshot 2025-06-14 at 2.35.05 PM.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
-  name: Friends
+  name: Water
   picture: "/assets/images/Screenshot 2025-06-14 at 2.39.39 PM.jpg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"

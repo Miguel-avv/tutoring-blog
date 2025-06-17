@@ -4,7 +4,7 @@ excerpt: "Medellin"
 coverImage: "/assets/images/IMG_6515.jpg"
 date: "2023-08-26T05:35:07.322Z"
 author:
-  name: Activities
+  name: Color everywhere
   picture: "assets/images/colombia/Screenshot 2025-06-17 at 2.11.42 PM.jpg"
 ogImage:
   url: "assets/images/colombia/Screenshot 2025-06-17 at 2.11.42 PM.jpg"
