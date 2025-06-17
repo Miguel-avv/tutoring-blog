@@ -9,11 +9,28 @@ author:
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
+## Research
 
-June 12th 2025
+![alt text](</assets/images/barbaods/Biodiversity on Breakwater in Barbados.jpg>)
 
- I am currently pursuing a Bachelor of Science in Biology and Computer Science at McGill University, where I merge life-science insight with solid programming skills in Python, R, Java, and JavaScript. My academic record—highlighted by a 32.5 R-score and repeated honours distinctions—reflects a strong commitment to excellence. I have conducted field research in Barbados on the ecological impact of coastal breakwaters, and I regularly tutor mathematics and science to students in grades 6-11. My leadership experience includes two sessions in the Quebec Youth Parliament, where I most recently sponsored a motion on the responsible integration of artificial intelligence in schools. Professional roles ranging from camp counselor to elections receptionist have strengthened my communication and teamwork abilities.
 
-## Trial
+## Island Pictures
 
-These are some services that I propose
+![alt text](/assets/images/barbaods/bellairs/IMG_3446.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_3752.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_4388.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_4560.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_4972.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_4988.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_5805.jpg) 
+![alt text](/assets/images/barbaods/bellairs/IMG_5834.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_6040.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_6546.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_6794.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241104_095637_245_01_10.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241105_101434_253_01_10.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241105_103235_284_13_10.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241105_110215_309_01_10.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241120_165539_437_01_10.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241125_164556_001_01_10.JPG) 
+![alt text](/assets/images/barbaods/bellairs/IMG_20241204_092844_308_13_10.JPG)
