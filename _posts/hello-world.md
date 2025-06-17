@@ -10,11 +10,32 @@ ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
 ## About me
-Hello world ; my name is Miguel Vargas Valencia. I’m a Biology + Computer Science student at McGill who just finished a Barbados field semester studying how artificial breakwaters influence reef biodiversity. I pair those research chops with strong data-coding skills in Python and R, steady experience tutoring math & science, and two terms of civic work in the Quebec Youth Parliament. In short, I love turning curiosity into impact—whether that’s crunching ecological data, mentoring students, or shaping tech-savvy policy.
+My name is Miguel Vargas Valencia. I’m a Biology + Computer Science student at McGill and I just finished my second year.
 
-I am currently pursuing a Bachelor of Science in Biology and Computer Science at McGill University, where I merge life-science insight with solid programming skills in Python, R, Java, and JavaScript. My academic record—highlighted by a 32.5 R-score and repeated honours distinctions—reflects a strong commitment to excellence. I have conducted field research in Barbados on the ecological impact of coastal breakwaters, and I regularly tutor mathematics and science to students in grades 6-11. My leadership experience includes two sessions in the Quebec Youth Parliament, where I most recently sponsored a motion on the responsible integration of artificial intelligence in schools. Professional roles ranging from camp counselor to elections receptionist have strengthened my communication and teamwork abilities.
+During my third semester, I took part in a Barbados field semester studying how artificial breakwaters influence reef biodiversity. Throught this jurney, I have maintained steady experience tutoring math & science, and two terms of civic work in the Quebec Youth Parliament. In short, I love tutoring, exploring new cultures and discovering new sports.
+
+
 
 ## Other
 
   
 My services:
+
+## Contact Me:
+<form action="https://formspree.io/f/mpwrlqlg" method="POST" class="space-y-4">
+  <label class="block">
+    <span class="text-sm text-gray-700">Your Email:</span>
+    <input type="email" name="email" required class="w-full border px-3 py-2 rounded" />
+  </label>
+  <label class="block">
+    <span class="text-sm text-gray-700">Your Message:</span>
+    <textarea name="message" required class="w-full border px-3 py-2 rounded"></textarea>
+  </label>
+  <div class="pt-4">
+  <button type="submit" class="text-white px-4 py-2 rounded font-semibold" style="background-color: #f97316;">
+  Send
+</button>
+
+  </div>
+</form>
+

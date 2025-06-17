@@ -29,12 +29,12 @@ const Alert = ({ preview }: Props) => {
             </>
           ) : (
             <>
-              The source code for this blog is{" "}
+              The sky is the limit{" "}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href={`https://www.google.com/search?sca_esv=8900ff206bef6d47&sxsrf=AE3TifNe_AzCptqokCF767aL00Zzrk3KXw:1750175820976&q=sky+picture&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQl1qr30s_Yn7wPpme216nRqAiAs3n96dOzRdUbeFoQTVruQMSG0ODZc9KkcKN4QVcFh6X9qw7maIpZY-TBUr7y4OkN2hoyXAudP3uRYJpi8dFjx-Xc6RTBYGWACpOevcIxfXna6KLwhY4JubFkQ5rK23k80aw8MasK8PK84uhkDOI1Z8yQ4KthpAfdmlBj-RYOzK2hA&sa=X&sqi=2&ved=2ahUKEwjT-umA6fiNAxWrnokEHTgwCMgQtKgLegQIDxAB&biw=1309&bih=707&dpr=2.2`}
                 className="underline hover:text-blue-600 duration-200 transition-colors"
               >
-                available on GitHub
+                see the sky
               </a>
               .
             </>
