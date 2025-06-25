@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: miguelvargasvalencia/tutoring-blog   # ← change if your repo slug differs
+  repo: miguelvargasvalencia/tutoring-blog  
   branch: main
   app_id: Ov23limXNxz1yenS6kOV
   auth_endpoint: https://decap-oauth.netlify.app/auth
