@@ -52,7 +52,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     return notFound();
   }
 
-  const title = `${post.title} | Miguel.avv  with ${CMS_NAME}`;
+  const title = `${post.title} | Miguel.avv `;
 
   return {
     title,
