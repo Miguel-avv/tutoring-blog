@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
+import Link from "next/link";
 
 import "./globals.css";
 
@@ -61,7 +62,14 @@ export default function RootLayout({
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
         <ThemeSwitcher />
-        <div className="min-h-screen">{children}</div>
+        <header className="border-b">
+          <nav className="max-w-5xl mx-auto flex items-center gap-4 p-4">
+            <Link href="/">Home</Link>
+            <Link href="/posts">Posts</Link>
+            <Link href="/notes">Notes</Link>
+          </nav>
+        </header>
+        <main className="max-w-5xl mx-auto p-4 min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>
