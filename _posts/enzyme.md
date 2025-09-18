@@ -1,5 +1,5 @@
 ---
-title: "Lab1"
+title: "enzymegit "
 excerpt: "The country of the flying fish"
 coverImage: "/assets/images/Screenshot 2025-06-14 at 2.35.05 PM.jpg"
 date: "2020-03-16T05:35:07.322Z"
