@@ -63,8 +63,88 @@ rather than experimental variation or colony growth differences.
 
 6- What is the main take-home message of your research paper?
 
-7- In your opinion, what is the strongest figure/data supporting the main conclusion of the paper? Justify your answer and describe how this figure contributed to the main conclusion.
+The main message is that targetting the epigenetic modifier : EZH2 
+can effectively block metastasis in Luminal B breast cancer by reactivating 
+by reactivating a FOCC1-driven anti metastatic transcriptional program.
+
+Specifically:
+    -EZH2 normally silences FoxC1 through H3K27me3, preventing activation of anti invasion genes.
+    -Genetic deletion or pharmacological inhibition of EZH2(using GSK-126) reactivates Foxc1 and its downstream targets.
+
+    - The reactivation strongly reduces metastatis in mouse models and patient-derived xenographs
+        of Luminal B breast cancer
+    -High FOXC1 levels correlate with better prognosis specifically in Luminal B patients.
+
+    -Therefore, EZH2 inhibitors represent a promising therapeutic strategy for Luminal B breast cancer, a subtype with poor survival and limited targeted treatment option.
+    Blocking EZH2 unleashes FOXC1, switching on a natural anti-metastatic program and offering a new treatment avenue for Luminal B breast cancer.
+
+7- In your opinion, what is the strongest figure/data supporting the main conclusion of the paper?
+
+    Based on the paper, the strongest figure supporting the main conclusion is Figure 2 (the experiments showing 
+that pharmacological inhibition of EZH2 with the small molecule inhibitor GSK-126 completely blocked lung metastasis in mouse models of
+Luminal B breast cancer)
+
+Justification:
+
+Why this figure is strongest: It moves beyond genetic models (knockout mice) and demonstrates
+that EZH2 enzymatic activity can be directly targeted with a drug. This is clinically relevant because it
+shows that the effect is not just a laboratory artifact of gene deletion, but achievable with a pharmacological
+approach that could translate into patient therapy.
+
+What the figure shows: Treatment with GSK-126 in mice with Luminal B tumors resulted in dramatic reduction or
+complete absence of lung metastases, while control mice developed numerous metastatic lesions. Importantly, 
+this effect occurred even when primary tumor growth was not significantly reduced, highlighting that the main impact was specific to blocking metastasis.
+
+Contribution to the main conclusion: This figure directly supports the paper’s central claim that EZH2 inhibition
+reactivates an anti-metastatic program via FOXC1, making EZH2 a promising therapeutic target for Luminal B breast cancer.
+It bridges the mechanistic insights (EZH2 silencing FOXC1) with a tangible therapeutic strategy (EZH2 inhibitors).
+
+SO:Figure 2 is the strongest because it provides direct, clinically translatable evidence that EZH2 inhibition can block metastasis in Luminal B breast cancer, which is the key take-home message of the study
 
 8-Describe what you think is the weakest aspect of your research paper. Justify your answer and discuss in what way this weakness might affect the paper’s overall conclusions.
 
+The study focuses heavily on Luminal B breast cancer and shows that EZH2 inhibition 
+reactivates FOXC1 only in this subtype. However, the experiments do not fully explain why the effect is limited to Luminal B and not seen in other subtypes (e.g., HER2+ or Basal-like).
+The molecular basis of this subtype specificity is left somewhat unclear.
+
+Why it matters:
+
+Without fully understanding why FOXC1 is repressed specifically by EZH2 in Luminal B,
+it is uncertain whether the therapeutic benefit of EZH2 inhibitors will be consistent across all 
+Luminal B patients or only a subset.
+This gap in mechanistic clarity could limit the generalizability of the findings and complicate translation into clinical settings. 
+For example, if only certain Luminal B tumors respond, the proposed therapy may require additional biomarkers beyond EZH2/FOXC1 to identify responsive patients.
+
+Impact on conclusions:
+This weakness does not undermine the main conclusion that 
+EZH2 inhibition can block metastasis in Luminal B breast cancer, since
+both genetic and pharmacological data strongly support it. However, it does 
+temper the strength of the clinical implications, as it suggests more work is
+needed to pinpoint which patients would truly benefit from EZH2 inhibitors.
+
+
+
 9- Reflecting on the main findings of the paper that you have just read and the questions that they raise, what would be the logical next steps to take? Take the paper as a starting point and describe what the focus of future exploration could be. Provide a brief background, a rationale/overall aim, and explain the relevance of this research.
+
+Background
+
+This paper shows that the histone methyltransferase EZH2 silences the transcription 
+factor FOXC1 in Luminal B breast cancer, thereby repressing an anti-metastatic program.
+Both genetic ablation and pharmacological inhibition of EZH2 reactivate FOXC1, significantly reducing metastasis in mouse models and patient-derived xenografts. 
+However, the effect is subtype-specific and strongest in Luminal B cancers, leaving unanswered 
+questions about patient variability and the broader therapeutic potential of EZH2 inhibitors.
+
+Rationale / Overall Aim
+
+The logical next step would be to translate these findings into a more precise, clinically applicable context. Specifically, research should:
+Clarify the molecular basis of subtype specificity — why EZH2 represses FOXC1 only in Luminal B but not in other subtypes.
+Identify biomarkers that predict which Luminal B patients will respond best to EZH2 inhibition.
+Evaluate EZH2 inhibitors in clinical trials, alone or in combination with existing therapies (e.g., endocrine therapy), to test whether the anti-metastatic 
+effects seen in models translate to humans.
+
+Relevance / Future Exploration
+
+Understanding the mechanisms that determine FOXC1 responsiveness will ensure that EZH2 inhibitors are used effectively
+in the clinic. Moreover, by developing predictive biomarkers and exploring therapeutic combinations, this research could
+expand targeted treatment options for Luminal B patients, a group that currently has poor prognosis and limited targeted therapies.
+Ultimately, this direction could make EZH2 inhibition a viable strategy to reduce mortality by directly addressing metastasis—the leading cause of death in breast cancer.
