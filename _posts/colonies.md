@@ -22,13 +22,19 @@ leaving purified plasmid DNA on the column
 
 
 
-2 b)Eager to isolate plasmid DNA from an overnight culture using a brand-new mini-prep kit that your lab has received, you rushed to the supplied step-by-step protocol and missed that you should have added EtOH to the bottle containing the wash buffer prior to using it.
-Ethanol is critical in the wash buffer because it reduces DNA solubility while allowing salts and impurities to remain soluble. This enables contaminants to be efficiently washed away while plasmid DNA stays bound to the silica membrane.
-If ethanol is not added, the wash buffer will not remove residual salts and proteins effectively. As a result, plasmid DNA may partially elute prematurely or remain contaminated, leading to low purity (high salt carryover) and reduced yield,
-which can interfere with downstream applications such as restriction digests or sequencing
+2 b)Eager to isolate plasmid DNA from an overnight culture using a brand-new mini-prep kit that your lab has received, you rushed through the step-by-step protocol and missed that you should have 
+added EtOH to the bottle containing the wash buffer before using it.
+
+Ethanol in the wash buffer decreases the solubility of DNA while keeping salts 
+and proteins soluble. This allows contaminants to be removed while plasmid DNA 
+stays bound to the silica column. Without ethanol, salts and proteins would not
+be efficiently washed away, and DNA could elute prematurely or remain contaminated.
+As a result, the final plasmid prep would have low purity and might interfere with
+downstream applications such as restriction digestion or sequencing.
 
 3 c)Would the plasmid purification still work if you replaced the Elution Buffer with water? What would be one
 Eager to isolate plasmid DNA from an overnight culture using a brand-new mini-prep kit that your lab has received, you rushed to the supplied step-by-step protocol and missed that
+
 Yes, plasmid DNA can still be eluted with nuclease-free water because low-salt conditions allow DNA to dissociate
 from the silica membrane. However, this has two disadvantages:
 
@@ -38,22 +44,47 @@ Lack of buffering, which can compromise DNA stability during storage (e.g., hydr
 Therefore, elution buffer is preferred to ensure both high yield and stable DNA for downstream steps like restriction digests and sequencing
 
 c) Critical thinking
-In the sample where pUC18-His was digested with KpnI, multiple bands were observed. However, as indicated in Part 3b), KpnI does not cut pUC18-His. Use internet searches to find out what band patterns you might see when running uncut plasmid DNA on an agarose gel.
-Uncut plasmid DNA typically shows multiple bands on an agarose gel because plasmids can exist in different conformations:
-
-Supercoiled (migrates fastest)
-Open circular (nicked) (migrates slowest)
-Linear (if present, migrates according to its actual size)
-The bands from uncut plasmid do not necessarily match the expected size of the plasmid, because migration depends on the conformation, not just base-pair length. Supercoiled plasmids migrate faster than linear DNA of the same size, while nicked plasmids migrate more slowly. Therefore, multiple bands appear even though all represent the same plasmid DNA.
+In the sample where pUC18-His was digested with KpnI, multiple bands were observed. However, as indicated in Part 3b, KpnI does not cut pUC18-His. Use internet searches to find out what band patterns you might see when running uncut plasmid DNA on an agarose gel.
+Do the bands observed from an uncut plasmid on an agarose gel match the size of the plasmid? Provide an explanation for the observed band pattern.
 
 
+Uncut plasmid DNA usually produces multiple bands on an agarose gel because plasmids can exist in several conformations:
+Supercoiled DNA, which migrates fastest,
+Open circular (nicked) DNA, which migrates slowest, and
+Linear DNA (if present), which migrates according to its actual size.
 
-d) Consider that the cDNA encoding mNeonGreen was ligated into a vector as part of a different set of experiments. Given that a single restriction enzyme was used for cloning, you want to determine whether mNeonGreen wa
-EcoRI was used. Since only one restriction enzyme was used for cloning, the insert could 
-ligate in either orientation because the EcoRI overhangs at both ends are identical,
-allowing the insert to be inserted forward or reversed. Using a single enzyme like EcoRI
-creates compatible ends on both sides, which does not enforce directionality, explaining 
-the two possible orientations shown on the map.
+These forms migrate differently due to variations in topology rather than DNA length. Therefore, the observed bands
+do not exactly match the expected plasmid size, even though all represent the same plasmid molecule. Supercoiling compacts the 
+DNA and allows it to move faster through the gel, while nicked or relaxed forms move more slowly.
+
+$$$$$
+el-
+You may see three bands when running uncut plasmid 
+DNA on an agarose gel because circular plasmids can adopt
+several conformations: supercoiled, open circular (nicked), and single-stranded circular.
+
+These bands do not correspond exactly to the plasmid’s actual size, since migration depends
+on DNA topology rather than base-pair length. Supercoiled plasmids are tightly twisted and 
+migrate fastest because they are more compact. Nicked (open circular) plasmids are relaxed and move more slowly, while single-stranded circular DNA migrates even faster due to its smaller apparent size.
+
+No linear band appears in this case because KpnI does not cut the pUC18-His plasmid.
+
+$$$$
+
+
+
+d) Consider that the cDNA encoding mNeonGreen was ligated 
+into a vector as part of a different set of experiments.
+Given that a single restriction enzyme was used for cloning,
+you want to determine whether mNeonGreen was inserted in the desired orientation (e.g., the mNeonGreen 5′ end downstream of a promoter so that it will be expressed).
+
+EcoRI was used. Since mNeonGreen does not have a distinct orientation when 
+cloned with a single enzyme, the same restriction site must exist on both ends
+of the insert and the vector. Using EcoRI creates compatible blunt or sticky ends
+that allow the insert to ligate in either direction, resulting in both possible 
+orientations of mNeonGreen seen on the maps.
+
+
 
 e)What enzyme or which combination of enzymes would you choose to differentiate between the two possible orientations? Draw a diagram of an agarose gel,
 including the DNA ladder,
@@ -67,3 +98,15 @@ In Orientation 2, digestion would give two bands of approximately 150 bp and 325
 
 On a 1% agarose gel, the difference between these patterns allows you to distinguish the orientation. A schematic gel should show the DNA ladder, the two different
 banding patterns for each orientation, and the corresponding fragment sizes.
+
+
+$$$$$$
+To distinguish between the two possible orientations of the mNeonGreen insert, I would digest the plasmid with KpnI (cutting within the insert) and BamHI (cutting in the vector). This combination produces fragments of different sizes depending on the insert’s orientation.
+
+Orientation 1: Two bands at approximately 760 bp and 2640 bp.
+
+Orientation 2: Two bands at approximately 150 bp and 3250 bp.
+
+On a 1% agarose gel, these distinct fragment sizes can be clearly resolved, allowing determination of the insert orientation.
+The gel should include a DNA ladder and two separate lanes showing the expected banding patterns for each orientation.
+$$$$$
