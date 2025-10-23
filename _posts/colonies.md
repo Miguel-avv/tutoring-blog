@@ -10,103 +10,166 @@ ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---
 
-1- a) Nucleic acids, including plasmid DNA, genomic DNA, and RNA bind to the silica-based column material under high-salt conditions. 
-Since you are only interested in isolating plasmid DNA, but not genomic
+In addition to the mutations listed above, it is also possible that there are silent mutations in
+your mutant sequence (mutations that do not change the amino acid sequence). Even though silent 
+mutations do not change the amino acid sequence, can they affect the protein in any way (structure,
+function, or expression level)? Justify your answer.
 
-Under high-salt conditions, nucleic acids (plasmid DNA, genomic DNA, and RNA) bind non-specifically to the silica membrane. 
-RNA is degraded by RNase A present in the resuspension buffer. Genomic DNA becomes trapped in the SDS–protein–lipid precipitate
-during the neutralization step and is pelleted upon centrifugation, so it is not loaded onto the column. The cleared lysate containing 
-plasmid DNA is applied to the silica membrane. During the subsequent wash steps with ethanol-containing buffer, salts, proteins, and other
-contaminants are washed away, while plasmid DNA remains bound. This selective retention and washing remove unwanted nucleic acids and contaminants, 
-leaving purified plasmid DNA on the column
+Yes. Silent mutations can still influence protein expression and folding even though the amino acid 
+sequence is unchanged. They can alter codon usage, affecting how quickly the ribosome translates the mRNA, 
+or change the mRNA’s secondary structure, which can impact its stability or translation efficiency. 
+For example, using a rare codon can slow translation, leading to improper folding or lower amounts of functional protein.
 
-
-
-2 b)Eager to isolate plasmid DNA from an overnight culture using a brand-new mini-prep kit that your lab has received, you rushed through the step-by-step protocol and missed that you should have 
-added EtOH to the bottle containing the wash buffer before using it.
-
-Ethanol in the wash buffer decreases the solubility of DNA while keeping salts 
-and proteins soluble. This allows contaminants to be removed while plasmid DNA 
-stays bound to the silica column. Without ethanol, salts and proteins would not
-be efficiently washed away, and DNA could elute prematurely or remain contaminated.
-As a result, the final plasmid prep would have low purity and might interfere with
-downstream applications such as restriction digestion or sequencing.
-
-3 c)Would the plasmid purification still work if you replaced the Elution Buffer with water? What would be one
-Eager to isolate plasmid DNA from an overnight culture using a brand-new mini-prep kit that your lab has received, you rushed to the supplied step-by-step protocol and missed that
-
-Yes, plasmid DNA can still be eluted with nuclease-free water because low-salt conditions allow DNA to dissociate
-from the silica membrane. However, this has two disadvantages:
-
-Reduced elution efficiency, which can lead to lower DNA yield.
-
-Lack of buffering, which can compromise DNA stability during storage (e.g., hydrolysis or pH changes over time).
-Therefore, elution buffer is preferred to ensure both high yield and stable DNA for downstream steps like restriction digests and sequencing
-
-c) Critical thinking
-In the sample where pUC18-His was digested with KpnI, multiple bands were observed. However, as indicated in Part 3b, KpnI does not cut pUC18-His. Use internet searches to find out what band patterns you might see when running uncut plasmid DNA on an agarose gel.
-Do the bands observed from an uncut plasmid on an agarose gel match the size of the plasmid? Provide an explanation for the observed band pattern.
+Eli
 
 
-Uncut plasmid DNA usually produces multiple bands on an agarose gel because plasmids can exist in several conformations:
-Supercoiled DNA, which migrates fastest,
-Open circular (nicked) DNA, which migrates slowest, and
-Linear DNA (if present), which migrates according to its actual size.
-
-These forms migrate differently due to variations in topology rather than DNA length. Therefore, the observed bands
-do not exactly match the expected plasmid size, even though all represent the same plasmid molecule. Supercoiling compacts the 
-DNA and allows it to move faster through the gel, while nicked or relaxed forms move more slowly.
-
-$$$$$
-el-
-You may see three bands when running uncut plasmid 
-DNA on an agarose gel because circular plasmids can adopt
-several conformations: supercoiled, open circular (nicked), and single-stranded circular.
-
-These bands do not correspond exactly to the plasmid’s actual size, since migration depends
-on DNA topology rather than base-pair length. Supercoiled plasmids are tightly twisted and 
-migrate fastest because they are more compact. Nicked (open circular) plasmids are relaxed and move more slowly, while single-stranded circular DNA migrates even faster due to its smaller apparent size.
-
-No linear band appears in this case because KpnI does not cut the pUC18-His plasmid.
-
-$$$$
+12.In general, what is a conservative mutation? Give an example.
 
 
+A conservative mutation replaces an amino acid with another of similar chemical properties (charge, polarity, size), usually preserving protein function.
+Example: Aspartic acid (D) → Glutamic acid (E) (both negatively charged).
 
-d) Consider that the cDNA encoding mNeonGreen was ligated 
-into a vector as part of a different set of experiments.
-Given that a single restriction enzyme was used for cloning,
-you want to determine whether mNeonGreen was inserted in the desired orientation (e.g., the mNeonGreen 5′ end downstream of a promoter so that it will be expressed).
+13.Are your mutations conservative or non-conservative?
 
-EcoRI was used. Since mNeonGreen does not have a distinct orientation when 
-cloned with a single enzyme, the same restriction site must exist on both ends
-of the insert and the vector. Using EcoRI creates compatible blunt or sticky ends
-that allow the insert to ligate in either direction, resulting in both possible 
-orientations of mNeonGreen seen on the maps.
+
+M1 (H229I): Conservative – both isoleucine and methionine are non-polar aliphatic residues.
+
+M2 (T98M): Non-conservative – threonine is polar uncharged; methionine is non-polar.
+
+M2 (H97Q): Non-conservative – histidine is positively charged; glutamine is polar uncharged.
+
+6: Measure the fluorescence intensity of each sample (Negative H, Positive C, M1, M2) and normalize to the positive control.
+Ans:Use the formula:
+
+where:
+
+X = mutant sample mean intensity
+
+H = negative control (His)
+
+C = positive control
+
+
+Neg control= 0
+Positive control=1 
+
+
+7. What are the GMQE and QMEANDisCo values? What is the sequence identity?
+GMQE: ~0.89
+
+QMEANDisCo: ~0.06
+
+Sequence identity: ~98–99%
+
+Would you consider this an accurate model?
+These values indicate a high-quality model that closely matches the WT protein structure.
+Yes, it would be considered an accurate and reliable model.
+
+8. Are any of your mutations located in badly modelled regions?
+
+No, all mutations are located in well-modelled regions of the protein, meaning the
+structural predictions for these sites are reliable.
+
+9. If a mutation is located in a badly modelled region, how would that influence your interpretation of its effect on the protein?
+
+If the mutation is in a badly modelled region, the model’s accuracy there is low, so
+the predicted structural effects are uncertain.
+Any conclusions about its impact on folding or function should be treated with caution.
 
 
 
-e)What enzyme or which combination of enzymes would you choose to differentiate between the two possible orientations? Draw a diagram of an agarose gel,
-including the DNA ladder,
+10. What is the reason why some regions can be badly modelled?
 
-I would choose KpnI and BamHI. One enzyme should cut within the mNeonGreen insert, and the other should cut outside the insert in the vector to produce
-fragments of clearly different sizes (>150 bp).
-
-In Orientation 1, digestion with KpnI and BamHI would give two bands of approximately 760 bp and 2640 bp.
-
-In Orientation 2, digestion would give two bands of approximately 150 bp and 3250 bp.
-
-On a 1% agarose gel, the difference between these patterns allows you to distinguish the orientation. A schematic gel should show the DNA ladder, the two different
-banding patterns for each orientation, and the corresponding fragment sizes.
+Badly modelled regions usually correspond to intrinsically disordered or flexible regions of the protein that are not well defined in the template structure.
+These parts often lack resolved coordinates in the PDB file, making accurate modelling impossible
 
 
-$$$$$$
-To distinguish between the two possible orientations of the mNeonGreen insert, I would digest the plasmid with KpnI (cutting within the insert) and BamHI (cutting in the vector). This combination produces fragments of different sizes depending on the insert’s orientation.
+14. Explain how the mutations found in your two mNeonGreen sequences could affect the structure or interactions of mNeonGreen.
 
-Orientation 1: Two bands at approximately 760 bp and 2640 bp.
 
-Orientation 2: Two bands at approximately 150 bp and 3250 bp.
+The mutations can influence the overall folding,
+stability, and fluorescence of mNeonGreen by changing 
+the local chemical environment of the protein, particularly 
+near the chromophore or within secondary structure elements.
 
-On a 1% agarose gel, these distinct fragment sizes can be clearly resolved, allowing determination of the insert orientation.
-The gel should include a DNA ladder and two separate lanes showing the expected banding patterns for each orientation.
-$$$$$
+H97Q (Histidine → Glutamine):
+Histidine is a positively charged residue that can participate
+in hydrogen bonding and acid–base interactions within the protein 
+core. Replacing it with glutamine, which is polar but uncharged, 
+removes the imidazole side chain that can stabilize nearby residues 
+through electrostatic interactions. This change could disrupt local 
+hydrogen-bond networks or slightly alter the orientation of 
+residues surrounding the chromophore, potentially decreasing fluorescence intensity or altering the protein’s pH sensitivity.
+
+T98M (Threonine → Methionine):
+Threonine is a small polar residue that often participates in
+hydrogen bonds, while methionine is larger and hydrophobic. 
+Substituting threonine with methionine can reduce polarity in 
+that region, affecting interactions with nearby water molecules
+and residues that stabilize the β-barrel structure of mNeonGreen.
+The added bulk of methionine may also introduce steric strain or 
+modify packing around the chromophore, possibly leading to lower 
+folding efficiency or fluorescence quantum yield.
+
+H229I (Histidine → Isoleucine):
+This substitution replaces a polar residue with a hydrophobic one.
+If this histidine originally contributed to surface charge balance 
+or participated in hydrogen bonds, its replacement by isoleucine 
+\could destabilize surface interactions or alter solvent accessibility.
+Conversely, if buried, the more hydrophobic isoleucine may stabilize
+the core but change local dynamics, influencing maturation kinetics of the fluorophore.
+
+
+ELI:
+M3 – S142G
+
+Change: Serine (polar, –OH) → Glycine (non-polar, no side chain).
+
+Effect: Loss of the serine –OH removes potential H-bonds and increases 
+local backbone flexibility (glycine is helix/turn-promoting). 
+This can loosen packing in the β-barrel and subtly perturb the chromophore environment, 
+potentially decreasing folding efficiency and brightness.
+
+M3 – K213E
+
+Change: Lysine (positive) → Glutamate (negative).
+
+Effect: Charge inversion can break/form salt bridges and 
+flip local electrostatics on the surface. That can alter 
+protein–solvent or protein–protein interactions, and may 
+shift pH sensitivity or stability; brightness could drop if
+surface rearrangements transmit strain to the barrel.
+
+M4 – W14C
+
+Change: Tryptophan (large, aromatic, strongly hydrophobic) → Cysteine (small, polarizable, –SH).
+
+Effect: Big loss of hydrophobic bulk and π-stacking capacity. 
+At the N-terminal region of the barrel, this can destabilize 
+local packing and slightly increase solvent access; the cysteine 
+could also form unintended disulfide under oxidizing conditions. 
+(Note: it is not right next to the GYG chromophore, per the model, 
+but it can still affect folding/stability indirectly.)
+
+M4 – I16V
+Change: Isoleucine → Valine (both non-polar, aliphatic).
+Effect: Conservative size/shape reduction; usually minimal structural impact.
+Likely little to no effect on fluorescence unless it sits at a tight packing hotspot.
+
+Overall, these mutations modify the electrostatic landscape and packing
+density around key structural motifs. Such alterations can affect how efficiently 
+the protein folds, how stable it is under physiological conditions, and how 
+effectively the chromophore forms and emits fluorescence.
+
+
+Are your mutations located in conserved or non-conserved
+regions of mNeonGreen? Refer to Appendix 6.1 for information
+about the conserved regions of mNeonGreen. Is a mutation in a conserved 
+region likely to be more or less impactful? Briefly justify your answer.
+
+The mutations in M3 and M4 are located in non-conserved regions of mNeonGreen.
+Mutations in conserved regions are usually more impactful because those amino 
+acids are maintained through evolution to preserve key structural or functional 
+features—such as the stability of the β-barrel and the formation of the chromophore.
+Changes in non-conserved regions are less likely to disrupt folding or fluorescence, 
+since these areas tolerate variation without major effects on the protein’s stability or activity.
