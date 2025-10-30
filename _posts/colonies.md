@@ -10,166 +10,92 @@ ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---
 
-In addition to the mutations listed above, it is also possible that there are silent mutations in
-your mutant sequence (mutations that do not change the amino acid sequence). Even though silent 
-mutations do not change the amino acid sequence, can they affect the protein in any way (structure,
-function, or expression level)? Justify your answer.
+part 2a) h 650 c 650
+        M3 700 M4 650
 
-Yes. Silent mutations can still influence protein expression and folding even though the amino acid 
-sequence is unchanged. They can alter codon usage, affecting how quickly the ribosome translates the mRNA, 
-or change the mRNA’s secondary structure, which can impact its stability or translation efficiency. 
-For example, using a rare codon can slow translation, leading to improper folding or lower amounts of functional protein.
-
-Eli
-
-
-12.In general, what is a conservative mutation? Give an example.
+Analysis
+:
+| Sample Name | Measured mean fluorescence intensity (a.u.) | Adjusted mean fluorescence intensity (a.u.) |
+| ----------- | ------------------------------------------- | ------------------------------------------- |
+| H           | 181.762                                     | 0                                           |
+| C           | 7936.525                                    | 7754.76                                     |
+| M3          | 8633.200                                    | 8471.48                                     |
+| M4          | 11068.897                                   | 10887.1                                     |
 
 
-A conservative mutation replaces an amino acid with another of similar chemical properties (charge, polarity, size), usually preserving protein function.
-Example: Aspartic acid (D) → Glutamic acid (E) (both negatively charged).
-
-13.Are your mutations conservative or non-conservative?
-
-
-M1 (H229I): Conservative – both isoleucine and methionine are non-polar aliphatic residues.
-
-M2 (T98M): Non-conservative – threonine is polar uncharged; methionine is non-polar.
-
-M2 (H97Q): Non-conservative – histidine is positively charged; glutamine is polar uncharged.
-
-6: Measure the fluorescence intensity of each sample (Negative H, Positive C, M1, M2) and normalize to the positive control.
-Ans:Use the formula:
-
-where:
-
-X = mutant sample mean intensity
-
-H = negative control (His)
-
-C = positive control
+Total extracts:
+| **Sample Name** | **OD₅₉₅** |
+| --------------- | --------- |
+| H               | 0.240     |
+| C               | 0.212     |
+| M3              | 0.280     |
+| M4              | 0.240     |
 
 
-Neg control= 0
-Positive control=1 
+b) TOTAL extracts – protein concentrations...
+| **Total Protein Sample** | **Protein concentration obtained using the equation (µg/mL)** | **Dilution factor** | **Protein concentration (µg/mL)** |
+| ------------------------ | ------------------------------------------------------------- | ------------------- | --------------------------------- |
+| H                        | 4.4675                                                        | 200                 | 9343.0                          |
+| C                        | 4.1405                                                        | 200                 | 9281.0                             |
+| M3                       | 4.3835                                                        | 200                 | 9276.3                             |
+| M4                       | 4.9230                                                        | 200                 | 9846.15                            |
 
 
-7. What are the GMQE and QMEANDisCo values? What is the sequence identity?
-GMQE: ~0.89
-
-QMEANDisCo: ~0.06
-
-Sequence identity: ~98–99%
-
-Would you consider this an accurate model?
-These values indicate a high-quality model that closely matches the WT protein structure.
-Yes, it would be considered an accurate and reliable model.
-
-8. Are any of your mutations located in badly modelled regions?
-
-No, all mutations are located in well-modelled regions of the protein, meaning the
-structural predictions for these sites are reliable.
-
-9. If a mutation is located in a badly modelled region, how would that influence your interpretation of its effect on the protein?
-
-If the mutation is in a badly modelled region, the model’s accuracy there is low, so
-the predicted structural effects are uncertain.
-Any conclusions about its impact on folding or function should be treated with caution.
+893.5 ug/ml x 0.001L x 1300 uL = 12146.94 ug
 
 
-
-10. What is the reason why some regions can be badly modelled?
-
-Badly modelled regions usually correspond to intrinsically disordered or flexible regions of the protein that are not well defined in the template structure.
-These parts often lack resolved coordinates in the PDB file, making accurate modelling impossible
-
-
-14. Explain how the mutations found in your two mNeonGreen sequences could affect the structure or interactions of mNeonGreen.
-
-
-The mutations can influence the overall folding,
-stability, and fluorescence of mNeonGreen by changing 
-the local chemical environment of the protein, particularly 
-near the chromophore or within secondary structure elements.
-
-H97Q (Histidine → Glutamine):
-Histidine is a positively charged residue that can participate
-in hydrogen bonding and acid–base interactions within the protein 
-core. Replacing it with glutamine, which is polar but uncharged, 
-removes the imidazole side chain that can stabilize nearby residues 
-through electrostatic interactions. This change could disrupt local 
-hydrogen-bond networks or slightly alter the orientation of 
-residues surrounding the chromophore, potentially decreasing fluorescence intensity or altering the protein’s pH sensitivity.
-
-T98M (Threonine → Methionine):
-Threonine is a small polar residue that often participates in
-hydrogen bonds, while methionine is larger and hydrophobic. 
-Substituting threonine with methionine can reduce polarity in 
-that region, affecting interactions with nearby water molecules
-and residues that stabilize the β-barrel structure of mNeonGreen.
-The added bulk of methionine may also introduce steric strain or 
-modify packing around the chromophore, possibly leading to lower 
-folding efficiency or fluorescence quantum yield.
-
-H229I (Histidine → Isoleucine):
-This substitution replaces a polar residue with a hydrophobic one.
-If this histidine originally contributed to surface charge balance 
-or participated in hydrogen bonds, its replacement by isoleucine 
-\could destabilize surface interactions or alter solvent accessibility.
-Conversely, if buried, the more hydrophobic isoleucine may stabilize
-the core but change local dynamics, influencing maturation kinetics of the fluorophore.
+Purified :
+| **Sample Name** | **OD₅₉₅** |
+| --------------- | --------- |
+| H               | 0.612     |
+| C               | 0.587     |
+| M3              | 0.262     |
+| M4              | 0.348     |
 
 
-ELI:
-M3 – S142G
-
-Change: Serine (polar, –OH) → Glycine (non-polar, no side chain).
-
-Effect: Loss of the serine –OH removes potential H-bonds and increases 
-local backbone flexibility (glycine is helix/turn-promoting). 
-This can loosen packing in the β-barrel and subtly perturb the chromophore environment, 
-potentially decreasing folding efficiency and brightness.
-
-M3 – K213E
-
-Change: Lysine (positive) → Glutamate (negative).
-
-Effect: Charge inversion can break/form salt bridges and 
-flip local electrostatics on the surface. That can alter 
-protein–solvent or protein–protein interactions, and may 
-shift pH sensitivity or stability; brightness could drop if
-surface rearrangements transmit strain to the barrel.
-
-M4 – W14C
-
-Change: Tryptophan (large, aromatic, strongly hydrophobic) → Cysteine (small, polarizable, –SH).
-
-Effect: Big loss of hydrophobic bulk and π-stacking capacity. 
-At the N-terminal region of the barrel, this can destabilize 
-local packing and slightly increase solvent access; the cysteine 
-could also form unintended disulfide under oxidizing conditions. 
-(Note: it is not right next to the GYG chromophore, per the model, 
-but it can still affect folding/stability indirectly.)
-
-M4 – I16V
-Change: Isoleucine → Valine (both non-polar, aliphatic).
-Effect: Conservative size/shape reduction; usually minimal structural impact.
-Likely little to no effect on fluorescence unless it sits at a tight packing hotspot.
-
-Overall, these mutations modify the electrostatic landscape and packing
-density around key structural motifs. Such alterations can affect how efficiently 
-the protein folds, how stable it is under physiological conditions, and how 
-effectively the chromophore forms and emits fluorescence.
+e) | **Purified Sample** | **Protein concentration using the equation obtained (µg/mL)** | **Dilution factor** | **Protein concentration (µg/mL)** |
+| ------------------- | ------------------------------------------------------------- | ------------------- | --------------------------------- |
+| H                   | 1.1063                                                        | 100                 | 110.63                            |
+| C                   | 7.9056                                                        | 100                 | 790.56                            |
+| M3                  | 3.8556                                                        | 100                 | 385.56                            |
+| M4                  | 4.8309                                                        | 100                 | 483.09                            |
 
 
-Are your mutations located in conserved or non-conserved
-regions of mNeonGreen? Refer to Appendix 6.1 for information
-about the conserved regions of mNeonGreen. Is a mutation in a conserved 
-region likely to be more or less impactful? Briefly justify your answer.
+b) Why is this normalization step necessary? Provide one possible explanation for why the
+protein concentrations in the purified samples could be different.
 
-The mutations in M3 and M4 are located in non-conserved regions of mNeonGreen.
-Mutations in conserved regions are usually more impactful because those amino 
-acids are maintained through evolution to preserve key structural or functional 
-features—such as the stability of the β-barrel and the formation of the chromophore.
-Changes in non-conserved regions are less likely to disrupt folding or fluorescence, 
-since these areas tolerate variation without major effects on the protein’s stability or activity.
+Normalization ensures that fluorescence measurements are independent of the total 
+protein concentration in each sample.
+By dividing the fluorescence intensity by the protein concentration (µg protein), 
+we compare intrinsic brightness per unit protein rather than total yield.
+
+Protein concentrations can differ between purified samples due to variations in 
+expression efficiency, purification recovery, or losses during washing/elution.
+
+///
+The normalization step corrects for differences in total protein concentration so
+fluorescence reflects intrinsic brightness per µg of protein. Concentrations can vary because of unequal expression levels or differing purification yields.
+
+////
+
+
+
+c) Is there a notable difference in normalized fluorescence intensity between your control and
+mutant samples? If yes, what does this suggest about the samples? If not, what does it mean? Explain.
+
+
+Yes, both mutants (M3 and M4) show higher normalized fluorescence than the wild-type C.
+This suggests that their mutations may have increased fluorescence efficiency or structural stability,
+possibly improving chromophore folding or maturation.
+
+However, further assays (e.g., spectrofluorometry in Lab 10) are required to confirm these differences,
+since ChemiDoc measurements provide only crude fluorescence estimates.
+
+
+///
+
+Yes, the mutants had greater normalized fluorescence intensity than the control, indicating that the 
+mutations likely enhanced brightness or folding efficiency of mNeonGreen.
+
+
+////
