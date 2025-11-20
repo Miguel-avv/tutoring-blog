@@ -10,136 +10,147 @@ ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---
 
-Western detection:
-  1-  Provide two reasons for why the primary antibody is not typically labelled directly with HRP or a fluorescent tag.
+Q1:Describe how the photobleaching curves for the five cells are different. 
+Explain any differences in the shape or amplitude of the curves.
 
-        1.Using a secondary antibody amplifies the signal — 
-        several secondary antibodies can bind to one primary antibody, producing stronger detection.
+Student answer: “the more negative (bigger magnitude) the slope, 
+the faster the protein is loosing fluorescence after being excited. All the curves look quite similar. 
+The similarity in the wild type (control) cells exhibiting stable and reproducible photophysical behavior.
+This provides a solid control for M3 & M4 to be compared to.”)
 
-        2.It is more cost-effective and flexible, since a single 
-        labeled secondary antibody can be used to detect multiple different primary antibodies from the same species.
+(TA comment: “plots should follow the same shape because the bleaching curve should look somewhat similar.
+if one goes up more fluorescence means inconsistency in cell imaging (excitation?)”)
 
-2-Why is it important to wash the membrane after the incubation with the primary antibody (Steps 11–14)? What might happen
-if you skipped this step and how would it affect visualization of the protein bands on the membrane?
+Q2:3. Bleaching kinetics – plots for mutant versions of mNeonGreen.
+As in (1), generate scatter plots for five cells of M3 and M4 (each mutant separately). Upload your plot to Teams (Class Materials/Lab Results – Upload/Your day/Lab 11). This is the plot from step 4 of Part 4 of the manual.
+(TA comment: “Need one plot per mutant = 5 cells per mutant to show consistency or the overall trends.”)
 
-Washing removes unbound or nonspecifically bound primary antibodies that remain on the membrane after incubation.
-If this step were skipped, residual antibodies could bind nonspecifically during secondary antibody incubation, causing high background and false positive signals on the blot.
-Proper washing ensures specific, clear bands corresponding only to the target protein.
+4. Bleaching kinetics – bleaching half-time.
+Photobleaching is a process during which individual molecules in a population are turned off stochastically. Each one of the bleaching curves that you generated describes this for thousands of molecules, resulting in an exponential decay, where the slope represents the bleaching rate. Using the steps described in the lab manual (Part 1–4), estimate the half-life in seconds (bleaching time) for five cells expressing wildtype and five cells expressing mutant mNeonGreen. Determine the average of the five cells for each variant.
 
-3- Explain the role of the horseradish peroxidase (HRP) in today’s chemiluminescent detection system for visualizing protein bands.
+Table:
+t₁/₂ in seconds	C	M3	M4
+Cell 1	55.52	73.739	45.904
+Cell 2	53.116	63.316	49.355
+Cell 3	57.213	81.207	44.799
+Cell 4	53.893	79.126	45.010
+Cell 5	54.220	63.316	46.210
+Mean	54.7382	67.2808	46.1150
 
-HRP (horseradish peroxidase) is an enzyme conjugated to the secondary antibody. It catalyzes the oxidation of luminol in the presence of hydrogen peroxide, producing chemiluminescent light.
-This emitted light marks the location of the target protein on the membrane and is captured by the ChemiDoc imaging system.
+Full-marks answer:
 
-or HRP, attached to the secondary antibody, catalyzes a chemiluminescent reaction that emits light when it oxidizes luminol. This light reveals the position of the target protein on the blot.
+The wildtype (C) has a mean bleaching half-time of ~54.7 s.
+M3 shows a much longer half-time (~67.3 s), meaning it bleaches more slowly.
+M4 shows a shorter half-time (~46.1 s), meaning it bleaches more quickly.
 
-6- Once you have completed the Western blot detection, download the image of your chemiluminescent blot from Image Lab.
-Open the image in Fiji, invert it, flip it as necessary, and compare the image of your chemiluminescent blot with the Stain-free blot.
-There should now be specific bands in the TOTAL extracts of the wild type (C) and the mutated versions (M1, M2) of mNeonGreen.
+Thus, relative to WT:
 
-Yes. The prominent bands appearing around 27 kDa in the TOTAL extracts of the wild type (C) and mutated (M1, M2) samples correspond to His-tagged mNeonGreen, which has a theoretical molecular weight of approximately 27 kDa.
-The absence of a band at that position in the His-only control confirms that these bands are specific to mNeonGreen expression.
+M3 is more photostable (longer t₁/₂ → slower bleaching)
+M4 is less photostable (shorter t₁/₂ → faster bleaching)
+These trends were consistent across the five cells for each variant.
 
-Sample	Mean Intensity (Raw)	Area	Mean Intensity (Background)	Signal Density	Interpretation
-TOTAL-His	2321.60	0.020	630.74	13.6	No mNeonGreen expressed (negative control)
-TOTAL-C	2600.04	0.020	977.36	25.5	Wild-type mNeonGreen expression
-TOTAL-M1	4004.73	0.020	2107.36	28.0	Slightly higher expression
-TOTAL-M2	4379.73	0.020	2107.36	28.0	Highest expression among samples
+Question 5 – Comparison between variants (model answer)
+Full-marks answer:
 
-
-8.Looking at your own results, do you find that there are any big differences between the expression of wild type and mutated versions of mNeonGreen?
-If no, explain in short what it means. If yes, explain in short what it means.
-
-The mutated versions (M3 and M4) show slightly higher signal intensity compared to the wild type (C), suggesting that the mutations may affect the stability or folding of the mNeonGreen protein, leading to small differences in expression or detection.
-However, because Western blot measures protein quantity (not fluorescence), we can only conclude that the mutants may be more stable or more efficiently expressed, not that they fluoresce more strongly.
-
-9.Consider that after detecting the presence of mNeonGreen in your sample by Western Blot, you would also like to confirm the presence of another protein in your sample.
-Do you think that you could use the same membrane for this?
-Explain your reasoning based on the interactions of proteins and antibodies with the membrane.
-Your handwritten answer (transcribed):
-
-Yes, the same membrane can be reused to detect another protein after the first detection.
-Following the initial mNeonGreen detection, the bound antibodies (both primary and secondary) can be removed by treating the membrane with a stripping buffer.
-The membrane can then be reblocked and incubated with a new set of antibodies specific to the second protein.
-This works because the proteins transferred to the membrane remain bound, while only the antibodies are stripped away.
-
-10. Your measurements are based on analyzing the images of your chemiluminescent Western blot.
-    How confident are you in the accuracy of your results?
-    What were possible sources of error?
-    Write down two possible sources, not including major experimental mistakes.
-    I am fairly confident in the accuracy of the results; the observed band patterns and intensities were consistent with expectations for mNeonGreen expression.
-
-Two possible sources of error:
-
-1-Incomplete protein transfer from the gel to the membrane — this could lead to weaker or missing bands.
-
-2-Quantification error in ImageJ analysis — the rectangular 
-selection tool may include background regions outside the band, affecting the calculated mean intensity.
+M3 has a longer bleaching half-time than WT, meaning its photobleaching rate is slower. 
+This indicates that the M3 mutation increases the photostability of mNeonGreen.
+In contrast, M4 has a shorter bleaching half-time than WT, meaning its photobleaching rate is faster. This indicates that the M4 mutation decreases photostability.
+Overall, the two mutations have opposite effects:
+M3 stabilizes the chromophore, making it bleach more slowly
+M4 destabilizes the chromophore, making it bleach more quickly
+This suggests that the amino-acid changes in M3 strengthen the local environment of the fluorophore, whereas the mutations in M4 weaken it.
 
 
-Experitment 11:
-Your project as a new recruit in the lab is to study the displacement and subsequent reassembly of nucleosomes during DNA replication in budding yeast. Earlier studies in the lab suggest a link with the histone chaperone FACT. This made you think that FACT might be interacting with one of the subunits of the hetero-hexameric MCM2-7 replicative helicase.
+Question6->on exel
 
-Sequence analysis furthermore indicates that FACT might interact with the N-terminal domain of MCM2, which comprises the first 150 amino acids of the full-length MCM2 protein. Therefore, you want to test this possible interaction. Which method would you choose to test this hypothesis?
-Fortunately, your lab also has an anti-FACT antibody that works well in Western blot (lot of course, your lab also has antibodies that reliably recognize affinity tags). However, you are unable to obtain an anti-MCM2 antibody before the deadline of the project.
+7. Maturation kinetics – maturation half-time.
 
-State a hypothesis.
-Then, the methods to test for protein–protein interaction, which should include the use of Western blot. List the experimental steps that you would take. Discuss possible outcomes with respect to your hypothesis. Clearly separate the subsections in your answer.
+Following the instructions in Part 5 of the manual, calculate the mean maturation half times for wildtype (C)
+and mutant (Mut) mNeonGreen. Enter your results into the table below.
+(Table from your photo:)
 
-Hypothesis
+t₁/₂ (minutes)	C	Mut
+Cell 1	18.818	12.99
+Cell 2	26.965	19.109
+Cell 3	6.52	15.516
+Cell 4	15.567	17.817
+Cell 5	5.276	13.867
+Mean	12.076	14.262
 
-FACT directly interacts with the N-terminal domain of MCM2 during nucleosome reassembly in budding yeast.
+TA comment: “longer ½ life = slower maturation rate”
+Score: 3.5 / 5 pts
 
-Experimental Method
+Question 7 — Maturation half-time interpretation
+Full-marks answer:
+The wildtype mNeonGreen shows a mean maturation half-time of ~12.1 minutes,
+while the mutant has a longer half-time of ~14.3 minutes. Because maturation half-time 
+is inversely related to maturation rate, this indicates that the mutant mNeonGreen matures
+more slowly than the wildtype version.
 
-We will use Co-immunoprecipitation (Co-IP) to test the protein–protein interaction between FACT and MCM2, followed by Western blot detection.
+Question 8 — Comparison between WT and mutant
+Full-marks answer (strong, concise, TA-ready):
+The mutant mNeonGreen has a longer maturation half-time than the wildtype, 
+indicating that its maturation rate is slower. This means the mutant protein
+takes more time to fold and form a functional fluorescent chromophore. As a result,
+the mutation decreases the speed at which newly synthesized protein becomes fluorescent.
+Functionally, this mutation would be less suitable for live-cell imaging, where fast maturation
+is important for accurately tracking newly expressed proteins.
 
-Procedure
-1. Sample Preparation
+Experimental design module
+(You are allowed to work with your classmates when they are allowed to say when discussing this question.
+You may also work on this question with other students, but make sure to answer in your own words.)
 
-Tag MCM2 with an affinity tag (e.g., His or FLAG) at its N-terminus.
+(a) First, you have to choose the most suitable fluorescent protein (FP) to be used as a tag for your actin binding protein (ABP).
+Sequence homology analysis suggests that the actin-binding domain is located near the C-terminus of the protein and your TA has
+told you everything is fine except that it is expressed at low levels in cells, so you would need a bright tag. You want to
+visualize its localization in live mammalian cells using confocal microscopy, and you want to fuse the ABP with a fluorescent protein. You have the tools ready to amplify the C-terminus in PCR cloning, and you are confident that you will be able to do the cloning with your technical skills. In the end, you will introduce the resulting plasmid into mammalian cells for imaging. You expect that both actin-mNeonGreen and the new actin-ABP fusion should be in the same cell at the same time. Before you start, you have to make two important decisions:
 
-Lyse yeast cells expressing both MCM2 and FACT to release proteins.
+Choose the most suitable fluorescent protein. 
+Your plasmid kit has cDNAs for mVenus, mScarlet-3, mChartreuse, and mKelly2. To help you decide between them, 
+navigate to FPbase.org and compare their fluorescence properties that are most relevant for imaging live mammalian cells.
+Also check their excitation/emission spectra in the spectral viewer. Make sure your choice of FP is sufficiently spectrally
+separated from mNeonGreen, so that both actin-mNeonGreen and your new FP-ABP fusion can be imaged in the same cell.
 
-2. Immunoprecipitation (Co-IP)
+Which of the four, mVenus, mScarlet-3, mChartreuse, and mKelly2 would you choose? Explain why you choose that one and
+not the others.
 
-Add an anti-FACT antibody to the lysate to capture FACT and any proteins bound to it.
+Full-marks answer:
 
-Add Protein A/G beads to pull down the antibody–protein complex.
+I would choose mScarlet-3 as the fluorescent protein tag.
+Among the four options, mScarlet-3 has minimal spectral overlap with mNeonGreen,
+meaning its excitation and emission spectra are well separated. This allows reliable 
+two-color imaging of actin-mNeonGreen and the ABP-mScarlet-3 fusion in the same cell without bleed-through between channels.
 
-Wash beads thoroughly to remove non-specific proteins.
+mVenus and mChartreuse have excitation/emission spectra that fall too close to mNeonGreen, 
+producing significant spectral overlap and making it difficult to distinguish the two signals in live cells.
+mKelly2 is also not ideal because it is relatively dim and has poorer maturation properties, making visualization 
+of a low-expression ABP more challenging.
 
-Elute the bound proteins (FACT + potential interactors).
+In contrast, mScarlet-3 is very bright, matures rapidly, and produces a strong fluorescent signal 
+even when the ABP is expressed at low levels. Its high photostability is advantageous for live-cell
+confocal imaging. Therefore, mScarlet-3 is the best choice for producing a clearly separable, bright
+red channel while imaging actin-mNeonGreen simultaneously.
 
-3. Western Blot Analysis
+(b) Second, you have to decide whether to add your choice of FP to the N- or C-terminus of ABP. In any protein,
+what is important to consider when deciding where to add a FP tag? Based on your last answer, would you place
+your choice of FP to ABP’s N- or C-terminus? Justify your answer.
 
-Separate eluted proteins on an SDS-PAGE gel.
+Your handwritten draft says:
+“To ensure we don't interfere with the function of the actin binding protein,
+we need to add the FP to the terminus which will not disrupt the binding to actin. 
+Since the ABP of interest has an actin binding domain near the terminus we would add
+the FP to the N-terminus to ensure no interference between the actin binding domain & actin.
 
-Transfer proteins to a PVDF membrane.
 
-Block membrane to prevent non-specific antibody binding.
+correct answer:
+When choosing where to place a fluorescent protein tag, 
+it is important to avoid disrupting any critical functional
+domains of the protein—especially binding domains, catalytic sites, or
+regions required for correct folding. In this ABP, sequence analysis 
+indicates that the actin-binding domain is located near the C-terminus. 
+Therefore, adding a bulky FP tag at the C-terminus could interfere with actin binding.
 
-Incubate with an antibody that recognizes the MCM2 affinity tag, since no direct anti-MCM2 antibody is available.
-
-Incubate with a secondary HRP-conjugated antibody and detect via chemiluminescence.
-
-Controls
-
-Positive control:
-Pull-down of FACT using anti-FACT antibody from cells expressing both FACT and MCM2 (to confirm the Co-IP setup works).
-
-Negative controls:
-
-Co-IP using lysate lacking FACT → ensures signal depends on FACT.
-
-Co-IP using MCM2 lacking the N-terminal domain → tests if interaction depends on this region.
-
-Expected Outcomes
-Observation	Interpretation
-Band detected for MCM2 with N-terminal domain	FACT interacts with MCM2’s N-terminal domain.
-No band detected for MCM2 with N-terminal domain	FACT does not interact with MCM2.
-Band appears only for full-length MCM2 but not truncated MCM2	Interaction depends on N-terminal domain.
-Bands appear for both full-length and truncated MCM2	FACT binds a different region of MCM2.
-Conclusion
-
-If the Western blot shows that MCM2 co-precipitates with FACT only when the N-terminal domain is present, this supports the hypothesis that FACT directly binds the N-terminal region of MCM2 during nucleosome reassembly.
+To preserve the normal function of the ABP, the FP should be fused to the
+N-terminus, which is distant from the actin-binding domain. Placing the tag
+at the N-terminus minimizes steric interference and allows the ABP to interact 
+n with actin normally while still enabling fluorescent visualization.
